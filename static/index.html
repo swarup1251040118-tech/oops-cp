@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Bike E20 Checker</title><link rel="stylesheet" href="/static/style.css"></head>
+<body>
+<header><div class="logo">🏍️<span>20</span></div><nav><a href="#check">E20 Check</a><a href="#mileage">Mileage</a><a href="#history">History</a><a href="#service">Maintenance</a></nav></header>
+
+<section class="hero">
+  <span class="pill">🌿 New E20 Fuel Standard</span>
+  <h1>Check if your bike is <em>E20 fuel compatible</em></h1>
+  <p>Instantly verify E20 compatibility for <b id="sModels">50</b> Indian bike models.<br>Protect your engine and make informed fuel choices.</p>
+  <div class="pills"><span class="pill">⚡ Instant Results</span><span class="pill">🛡 Accurate Data</span><span class="pill">🌿 Eco-Friendly</span><span class="pill">👥 Trusted by Thousands</span></div>
+  <a class="btn wide" href="#check">Check My Bike Now →</a>
+  <a class="btn wide dark" href="#why">Learn About E20</a>
+  <div class="stats"><div class="card"><b id="sBrands">8</b>Bike Brands</div><div class="card"><b id="sModels2">50</b>Bike Models</div><div class="card"><b id="sPct">0%</b>E20 Compatible</div></div>
+</section>
+
+<section id="check"><h2>Find Your Bike's E20 Compatibility</h2><p class="sub">Search by bike model or select your brand and model to get instant results</p>
+  <div class="panel"><h3>Quick Search</h3><div class="row"><input id="q" placeholder="e.g. splendor"><button class="btn" id="qBtn">Search</button></div><div id="sugg"></div></div>
+  <div class="panel"><h3>Or Select Your Bike</h3><div class="grid2"><label>Select Brand<select id="brand"></select></label><label>Select Model<select id="model"></select></label></div></div>
+  <div id="result"></div></section>
+
+<section id="why"><h2>Why Check E20 Compatibility?</h2><p class="sub">Understanding your bike's fuel compatibility helps protect your vehicle and environment</p>
+  <div class="grid2 cards"><div class="card">✅ <h4>Instant Compatibility Check</h4><p>Get immediate results for your bike's E20 fuel compatibility.</p></div><div class="card">🏍️ <h4>Comprehensive Database</h4><p>50 bike models from 10 brands stored in SQLite.</p></div><div class="card">🛡 <h4>Protect Your Vehicle</h4><p>Avoid costly engine damage by verifying E20 compatibility.</p></div><div class="card">🌿 <h4>Environmental Impact</h4><p>Make informed decisions about cleaner fuel options.</p></div></div></section>
+
+<section id="mileage"><h2>Mileage Calculator</h2><p class="sub">Log a fill-up and see your real-world mileage</p>
+  <div class="panel"><label>Bike<select id="mBike"></select></label>
+  <div class="grid2"><label>Distance (km)<input id="dist" type="number" min="0" step="0.1"></label><label>Fuel used (litres)<input id="fuel" type="number" min="0" step="0.01"></label></div>
+  <label>Fuel price ₹/litre (optional)<input id="price" type="number" min="0" step="0.01"></label>
+  <button class="btn wide" id="mBtn">Calculate &amp; Save</button><div id="mRes"></div></div></section>
+
+<section id="history"><h2>Mileage History</h2><p class="sub">Your logged mileage compared with the expected value</p>
+  <div class="panel"><canvas id="chart" width="900" height="320"></canvas><p id="hEmpty" class="sub"></p></div></section>
+
+<section id="service"><h2>Maintenance Reminder</h2><p class="sub">Find out when your next service is due</p>
+  <div class="panel"><label>Bike<select id="sBike"></select></label>
+  <div class="grid2"><label>Odometer at last service (km)<input id="last" type="number" min="0"></label><label>Current odometer (km)<input id="cur" type="number" min="0"></label></div>
+  <button class="btn wide" id="sBtn">Check Reminder</button><div id="sRes"></div></div></section>
+
+<footer>Data is indicative. Always confirm with your manufacturer's official E20 statement.</footer>
+<script src="/static/app.js"></script></body></html>

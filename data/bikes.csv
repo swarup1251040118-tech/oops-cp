@@ -1,0 +1,51 @@
+brand,model,cc,category,e20,year_from,kmpl,note
+Hero,Splendor Plus,97,Commuter,1,2023,70,BS6 Phase 2 engine
+Hero,HF Deluxe,97,Commuter,1,2023,70,BS6 Phase 2 engine
+Hero,Glamour,125,Commuter,1,2023,65,FI model
+Hero,Xtreme 160R,160,Sports,1,2023,55,FI model
+Hero,Passion Pro,113,Commuter,0,2019,65,Older models not confirmed for E20
+Hero,Xpulse 200,199,Sports,1,2023,40,4V version
+Hero,Destini 125,125,Scooter,1,2023,50,FI model
+Honda,Shine 125,124,Commuter,1,2023,60,OBD2 models
+Honda,SP 125,124,Commuter,1,2023,60,OBD2 models
+Honda,Unicorn,162,Commuter,1,2023,55,OBD2 models
+Honda,Activa 6G,110,Scooter,1,2023,50,OBD2 models
+Honda,Hornet 2.0,184,Sports,1,2023,50,OBD2 models
+Honda,CB350,348,Cruiser,1,2023,35,Check your model year
+Honda,Dio,110,Scooter,1,2023,50,OBD2 models
+Bajaj,Pulsar 150,149,Sports,1,2023,50,FI model
+Bajaj,Pulsar N160,164,Sports,1,2023,48,FI model
+Bajaj,Pulsar NS200,199,Sports,1,2023,42,FI model
+Bajaj,Pulsar 220F,220,Sports,1,2023,40,FI model
+Bajaj,Platina 110,115,Commuter,1,2023,70,BS6 Phase 2 engine
+Bajaj,CT 110X,115,Commuter,0,2019,70,Older models not confirmed for E20
+Bajaj,Avenger Street 160,160,Cruiser,0,2019,45,Older models not confirmed for E20
+TVS,Apache RTR 160 4V,160,Sports,1,2023,45,FI model
+TVS,Apache RTR 200 4V,197,Sports,1,2023,40,FI model
+TVS,Raider 125,125,Commuter,1,2023,55,FI model
+TVS,Jupiter,110,Scooter,1,2023,50,BS6 Phase 2 engine
+TVS,Ntorq 125,125,Scooter,1,2023,45,BS6 Phase 2 engine
+TVS,Star City Plus,110,Commuter,1,2023,65,BS6 Phase 2 engine
+TVS,Sport,109,Commuter,0,2019,75,Older models not confirmed for E20
+Yamaha,FZ-S Fi V3,149,Sports,1,2023,45,FI model
+Yamaha,FZ-X,149,Sports,1,2023,45,FI model
+Yamaha,R15 V4,155,Sports,1,2023,40,FI model
+Yamaha,MT-15 V2,155,Sports,1,2023,42,FI model
+Yamaha,Fascino 125,125,Scooter,1,2023,55,Hybrid FI model
+Yamaha,RayZR 125,125,Scooter,1,2023,55,Hybrid FI model
+Royal Enfield,Classic 350,349,Cruiser,1,2021,35,J-series engine
+Royal Enfield,Bullet 350,349,Cruiser,1,2023,35,J-series engine
+Royal Enfield,Hunter 350,349,Cruiser,1,2022,36,J-series engine
+Royal Enfield,Meteor 350,349,Cruiser,1,2020,35,J-series engine
+Royal Enfield,Himalayan 411,411,Cruiser,0,2019,30,Older models not confirmed for E20
+Royal Enfield,Interceptor 650,648,Cruiser,1,2022,25,Check your model year
+Suzuki,Access 125,124,Scooter,1,2023,50,FI model
+Suzuki,Gixxer,155,Sports,1,2023,45,FI model
+Suzuki,Gixxer SF 250,249,Sports,1,2023,35,FI model
+Suzuki,Burgman Street,124,Scooter,1,2023,50,FI model
+Suzuki,Avenis,124,Scooter,1,2023,50,FI model
+KTM,Duke 200,199,Sports,1,2023,35,Check your model year
+KTM,Duke 390,373,Sports,1,2023,28,Check your model year
+KTM,RC 200,199,Sports,1,2023,35,Check your model year
+Jawa,42,293,Cruiser,1,2023,32,Check your model year
+Kawasaki,Ninja 300,296,Sports,0,2018,25,Older models not confirmed for E20
